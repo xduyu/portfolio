@@ -12,3 +12,94 @@ body {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+img {
+    max-width: 100%;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    min-width: 100%;
+}
+
+.container {
+    max-width: 1106px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: rgb(238, 239, 241);
+    padding-top: 56px;
+    padding-bottom: 146px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    width: 96px;
+}
+
+.navigation {}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 42px;
+    text-transform: uppercase;
+}
+
+.nav__item {}
+
+.nav__link {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 10%;
+}
+
+.hero__main {}
+
+.hero__img-wrap {}
+
+.hero__img-img {}
+
+.hero__contant {}
+
+.title {}
+
+.subtitle {}
+
+.hero_subtitle {}
+
+.hero__btn-wrap {}
+
+.btn {}
