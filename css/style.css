@@ -1,3 +1,8 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Revalia", sans-serif;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -77,29 +82,83 @@ p {
     text-transform: uppercase;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .nav__item {}
 
 .nav__link {
     color: rgb(0, 0, 0);
     font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 10%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    transition: color 0.3s;
 }
 
-.hero__main {}
+.nav__link:hover {
+    color: #34547a;
+}
 
-.hero__img-wrap {}
+.hero__main {
+    padding-top: 162px;
+    display: flex;
+}
 
-.hero__img-img {}
+.hero__img-wrap {
+    text-align: center;
+    width: 50%;
+}
 
-.hero__contant {}
+.hero__img-img {
+    max-width: 367px;
+}
 
-.title {}
+.hero__contant {
+    width: 50%;
+}
 
-.subtitle {}
+.title {
+    margin-bottom: 46px;
+    font-weight: 500;
+    font-size: 48px;
+    color: #000;
+}
 
-.hero_subtitle {}
+.subtitle {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    color: #727272;
+
+}
+
+.hero_subtitle {
+    text-align: left;
+    margin-bottom: 60px;
+}
 
 .hero__btn-wrap {}
 
-.btn {}
+.btn {
+    display: inline-block;
+    padding: 25px 41px;
+    background: #34547a;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
