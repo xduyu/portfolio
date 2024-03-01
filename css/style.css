@@ -3,6 +3,7 @@
     --second-family: "Revalia", sans-serif;
 }
 
+/* base-title */
 * {
     box-sizing: border-box;
 }
@@ -57,6 +58,9 @@ p {
     margin: 0 auto;
 }
 
+/* main-page */
+/* header */
+
 .hero {
     background: rgb(238, 239, 241);
     padding-top: 56px;
@@ -82,20 +86,6 @@ p {
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .nav__item {}
 
 .nav__link {
@@ -109,6 +99,8 @@ p {
 .nav__link:hover {
     color: #34547a;
 }
+
+/* header-end */
 
 .hero__main {
     padding-top: 162px;
@@ -161,4 +153,45 @@ p {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background: #2e445f;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+/* about */
+
+.about {
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+}
+
+.about__content {
+    max-width: 540px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* title of text */
+.section-title {
+    margin-bottom: 50px;
+    font-size: 32px;
+    text-align: center;
+    color: #000;
+}
+
+.achievements {
+    background-color: #34547a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.achievements__list {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
 }
