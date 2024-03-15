@@ -195,3 +195,99 @@ p {
     column-gap: 20px;
     justify-content: space-between;
 }
+
+.achievement {
+    align-items: flex-end;
+    display: flex;
+    column-gap: 20px;
+}
+
+.achievement__count {
+    font-weight: 500;
+    font-size: 21px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.achievement__text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/* .achievement__desc {
+    margin-left: 15px;
+}
+
+.achievement__count {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.achievement__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    color: #fff;
+}
+
+.achievements__item {
+    display: flex;
+}
+
+.achievement {}
+
+.achievement__item {} */
+
+.skills {
+    padding: 100px 0px 100px;
+}
+
+.skills__container {
+    display: flex;
+}
+
+.skills__contant {
+    width: 50%;
+    padding-top: 100px;
+}
+
+.section-title {}
+
+.skills__list {}
+
+.skills__item {
+    margin-bottom: 25px;
+}
+
+.skill__name {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    color: #727272;
+    margin-bottom: 14px;
+}
+
+.skill__meter-wrap {
+    width: 50%;
+    padding-left: 21px;
+}
+
+.skill__meter,
+.skill__meter::-webkit-meter-bar {
+    width: 445px;
+    max-width: 100%;
+    height: 4px;
+    border: none;
+    border-radius: 0;
+}
+
+.skill__meter::-webkit-meter-optimum-value {
+    background: #34547a;
+}
