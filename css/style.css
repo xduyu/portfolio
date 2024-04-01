@@ -70,22 +70,26 @@ p {
 }
 
 .header {
+    column-gap: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     display: block;
     width: 96px;
+    flex-shrink: 0;
 }
 
 .navigation {}
 
 .nav__list {
     display: flex;
-    align-items: center;
     column-gap: 42px;
     text-transform: uppercase;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .nav__item {}
@@ -96,6 +100,7 @@ p {
     font-weight: 500;
     letter-spacing: 0.1em;
     transition: color 0.3s;
+    white-space: nowrap;
 }
 
 .nav__link:hover {
@@ -107,6 +112,8 @@ p {
 .hero__main {
     padding-top: 162px;
     display: flex;
+    padding-top: 162;
+    gap: 30px;
 }
 
 .hero__img-wrap {
@@ -159,9 +166,9 @@ p {
 }
 
 .btn:hover {
-    background: #2e445f;
-    font-size: 20px;
-    border-radius: 20px;
+    background: #283b52;
+    font-size: 15px;
+    border-radius: 5px;
 }
 
 /* about */
@@ -195,13 +202,16 @@ p {
 .achievements__list {
     display: flex;
     column-gap: 20px;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .achievement {
     align-items: flex-end;
     display: flex;
     column-gap: 20px;
+
 }
 
 .achievement__count {
