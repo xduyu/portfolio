@@ -412,3 +412,54 @@ p {
     height: 100%;
     display: block;
 }
+
+.order {
+    padding: 100px 0 100px 0px;
+    background-color: #EEEFF1;
+}
+
+.order__content {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.order__desc {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.section-title {}
+
+.form__about {}
+
+.faform {}
+
+.form__elements {
+    width: 100%;
+}
+
+.form__rous {
+    margin: 20px;
+    column-gap: 30px;
+    display: flex;
+}
+
+.form__rous:last-child {
+    margin-bottom: 50px;
+}
+
+.form__input {
+    flex: 1;
+}
+
+.user-info-input {}
+
+.user-info-text {}
+
+.form__btn-wrap {
+    margin-top: 50px;
+}
+
+.btn {}
+
+.order__btn {}
