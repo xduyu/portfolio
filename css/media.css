@@ -45,4 +45,40 @@
     .achievements {
         padding: 50px 0px;
     }
+
+    .skills__container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .skills__contant {
+        padding-top: 80px;
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .form__rous {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .skills__img {
+        object-fit: cover;
+    }
+
+    .form__input {
+        flex: 1 0 100%;
+    }
+
+    .footer__content {
+        row-gap: 20px;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .footer__user-name {
+        margin-bottom: 10px;
+    }
 }
+
+@media (max-width:425px) {}
